@@ -64,8 +64,3 @@ Email package
 Mailtrap (for testing email notifications)
 Contact
 For any questions or feedback, feel free to contact [alirezafiv@gmail.com].
-
-vbnet
-Copy code
-
-Make sure to replace placeholders such as `Matrix2030`, `alirezafiv@gmail.com`, and adapt the content based on your project's specific details. This README provides a quick overview, installation instructions, usage guidelines, and information for potential contributors.
