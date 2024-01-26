@@ -42,7 +42,7 @@ def send_email(subject, body, to_email):
         server.sendmail(sender, receiver, message.as_string())
 
 def track_price():
-    product_url = 'TARGET URL'
+    product_url = 'https://www.mobile.ir/phones/prices.aspx?terms=&brandid=7&provinceid=&duration=7&price_from=-1&price_to=-1&shopid=&pagesize=50&sort=date&dir=desc&submit=%D8%AC%D8%B3%D8%AA%D8%AC%D9%88'
     to_email = 'recipient@example.com'  # Replace with the recipient's email
     db_file = 'price_tracker.db'
 
