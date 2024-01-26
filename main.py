@@ -30,7 +30,7 @@ def get_product_price(url):
 
 def send_email(subject, body, to_email):
     sender = "Private Person <from@example.com>"
-    receiver = "A Test User <alirezafiv@gmail.com>"
+    receiver = "A Test User <toEmail@gmail.com>"
 
     message = MIMEText(body, 'html')
     message['Subject'] = subject
@@ -38,11 +38,11 @@ def send_email(subject, body, to_email):
     message['From'] = sender
 
     with smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525) as server:
-        server.login("741e03fb22bad9", "cd9c663bf40acd")
+        server.login("741e0*******", "cd9*********")
         server.sendmail(sender, receiver, message.as_string())
 
 def track_price():
-    product_url = 'https://www.mobile.ir/phones/prices.aspx?terms=&brandid=7&provinceid=&duration=7&price_from=-1&price_to=-1&shopid=&pagesize=50&sort=date&dir=desc&submit=%D8%AC%D8%B3%D8%AA%D8%AC%D9%88'
+    product_url = 'TARGET URL'
     to_email = 'recipient@example.com'  # Replace with the recipient's email
     db_file = 'price_tracker.db'
 
