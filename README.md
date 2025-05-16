@@ -24,7 +24,7 @@ This Python script tracks the price of a product from a specific website, compar
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/product-price-tracker.git
+   git clone https://github.com/Alireza-A0/product-price-tracker.git
    cd product-price-tracker
 Install the required packages:
 
